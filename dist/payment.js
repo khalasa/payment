@@ -431,7 +431,7 @@ var payment =
 	};
 
 	restrictCombinedExpiry = function(e) {
-	  return restrictExpiry(e, 6);
+	  return restrictExpiry(e, 4);
 	};
 
 	restrictMonthExpiry = function(e) {
@@ -439,7 +439,7 @@ var payment =
 	};
 
 	restrictYearExpiry = function(e) {
-	  return restrictExpiry(e, 4);
+	  return restrictExpiry(e, 2);
 	};
 
 	restrictCVC = function(e) {
